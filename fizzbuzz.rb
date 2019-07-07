@@ -7,7 +7,7 @@ binding.pry
     then "Fizz"
   elsif int % 5 == 0
     then "Buzz"
-  else int % 3 == 0 && int % 5 == 0
+  elsif int % 3 == 0 && int % 5 == 0
     then "FizzBuzz"
   end
 end

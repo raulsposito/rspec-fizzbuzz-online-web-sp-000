@@ -1,13 +1,13 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 require 'pry'
-def fizzbuzz(int = "4")
+def fizzbuzz(int)
 binding.pry
   if int % 3 == 0
     then "Fizz"
   elsif int % 5 == 0
     then "Buzz"
-  elsif int % 3 == 0 && int % 5 == 0
+  else int % 3 == 0 && int % 5 == 0
     then "FizzBuzz"
   end
 end

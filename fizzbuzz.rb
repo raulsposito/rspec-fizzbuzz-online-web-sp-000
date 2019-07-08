@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 require 'pry'
 def fizzbuzz(int)
-  if int % 3 == 0
+  if int % 3 == 0 && int % 5 == 0 
+    then "FizzBuzz"
+  elsif int % 3 == 0
     then "Fizz"
   elsif int % 5 == 0
     then "Buzz"
-  elsif (int % 3 == 0) && (int % 5 == 0) 
-  then "FizzBuzz"
   end
 end
